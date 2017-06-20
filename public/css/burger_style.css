@@ -36,31 +36,24 @@ body {
 }
 
 /*list group panel*/
+.list-group > .list-group-item {
+  background-color: red;
+}
 
 .list-group-item {
   position: relative;
-  margin-top: 40px;
   width: 300px;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
-   
-}
-
-#eater{
-  position:absolute;
-  bottom: 20px;
-  left: 310px;
-  width: 150px;
 }
 
 #btn-devour {
   position: absolute;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  bottom: -20px;
+  bottom: 4px;
   left: 310px;
 }
-
 
 /*table*/
  .table tbody tr > td{

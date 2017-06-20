@@ -7,7 +7,6 @@
                          {{this.id}}. {{this.burger_name}}
                         <form action="/{{this.id}}?_method=PUT" method="POST">
                             <input type="hidden" name="devoured" value="1">
-                            <input type="text" class="form-control" id="eater" placeholder="Eater's Name?">
                             <button type="submit" class="btn btn-primary" id="btn-devour">Devour It</button>
                         </form>
                     </li>
@@ -22,7 +21,7 @@
                 {{#if this.devoured}}
                     <tr>
                         <td>
-                             {{this.id}}. {{this.burger_name}} <strong>Devoured!</strong> (By: {{this.Eater.eater_name}})
+                             {{this.id}}. {{this.burger_name}}
                         </td>
                     </tr>                
                 {{/if}}
